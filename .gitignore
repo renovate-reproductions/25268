@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/packages/*/node_modules
+/packages/*/dist
+/packages/**/*.tsbuildinfo
+
+# testing
+/packages/*/coverage
+
+# production
+/packages/app/build
+
+# Version managers
+.tool-versions
+
+# misc
+.DS_Store
+.env.local
+.env.*.local
+
+npm-debug.log*
+
+.idea
+/bin/
+.classpath
+.project
+/.vscode
+.npmrc.swp
+debug.log
+.terraform
+/.eslintcache
