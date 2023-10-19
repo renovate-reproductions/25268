@@ -2,8 +2,10 @@
   "name": "@renovate-security-pr-issue/app",
   "version": "1",
   "private": true,
-  "license": "UNLICENSED",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
   "dependencies": {
     "@apollo/client": "^3.8.4",
     "@elastic/apm-rum": "^5.15.0",
