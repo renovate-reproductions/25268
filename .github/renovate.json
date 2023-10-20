@@ -20,6 +20,7 @@
       "automerge": true
     }
   ],
+  "dependencyDashboardApproval": true,
   "ignoreDeps": ["mobx-react"],
   "transitiveRemediation": true,
   "vulnerabilityAlerts": {
